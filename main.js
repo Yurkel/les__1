@@ -1,10 +1,10 @@
 const count = 7;
-let y = count ** 2;
-let z = count ** 3;
+let countSquare = count ** 2;
+let countCube = count ** 3;
 
-console.log(count);
-console.log(y);
-console.log(z);
+console.log("Значение: " + count);
+console.log("Квадрат этого значения: " + countSquare);
+console.log("Куб этого значения: " + countCube);
 
 const tempCel = 20;
 let tempFar = ((tempCel * 9) / 5) + 32;
